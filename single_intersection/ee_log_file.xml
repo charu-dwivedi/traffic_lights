@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Dec  4 22:47:33 2019 by Eclipse SUMO Version v1_3_1+0817-d484d16121
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/charu/Projects/sumo_tutorials/single_intersection/net_file.net.xml"/>
+        <route-files value="/home/charu/Projects/sumo_tutorials/single_intersection/route_file.rou.xml"/>
+        <additional-files value="/home/charu/Projects/sumo_tutorials/single_intersection/additional.xml"/>
+    </input>
+
+    <report>
+        <no-warnings value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="52893"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<e3Detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e3_file.xsd">
+   <interval begin="0.00" end="203.00" id="e_g_w_n_g_n" meanTravelTime="8.73" meanOverlapTravelTime="9.49" meanSpeed="5.66" meanHaltsPerVehicle="0.14" meanTimeLoss="8.85" vehicleSum="7" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="203.00" id="e_g_w_w_g_w" meanTravelTime="0.37" meanOverlapTravelTime="1.07" meanSpeed="6.84" meanHaltsPerVehicle="0.00" meanTimeLoss="0.28" vehicleSum="15" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="203.00" id="e_g_w_s_g_s" meanTravelTime="1.42" meanOverlapTravelTime="2.49" meanSpeed="2.95" meanHaltsPerVehicle="0.14" meanTimeLoss="1.52" vehicleSum="7" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="203.00" id="n_g_s_w_g_w" meanTravelTime="0.53" meanOverlapTravelTime="1.66" meanSpeed="3.28" meanHaltsPerVehicle="0.00" meanTimeLoss="1.13" vehicleSum="1" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="203.00" id="n_g_s_s_g_s" meanTravelTime="1.39" meanOverlapTravelTime="3.06" meanSpeed="1.01" meanHaltsPerVehicle="0.00" meanTimeLoss="1.94" vehicleSum="1" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="203.00" id="n_g_s_e_g_e" meanTravelTime="0.92" meanOverlapTravelTime="1.83" meanSpeed="3.79" meanHaltsPerVehicle="0.04" meanTimeLoss="0.96" vehicleSum="23" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="203.00" id="s_g_n_e_g_e" meanTravelTime="0.24" meanOverlapTravelTime="0.84" meanSpeed="8.38" meanHaltsPerVehicle="0.00" meanTimeLoss="0.00" vehicleSum="1" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="203.00" id="s_g_n_n_g_n" meanTravelTime="0.62" meanOverlapTravelTime="1.51" meanSpeed="3.34" meanHaltsPerVehicle="0.00" meanTimeLoss="0.48" vehicleSum="9" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="203.00" id="s_g_n_w_g_w" meanTravelTime="0.46" meanOverlapTravelTime="1.29" meanSpeed="4.01" meanHaltsPerVehicle="0.00" meanTimeLoss="0.40" vehicleSum="15" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="203.00" id="w_g_e_s_g_s" meanTravelTime="0.26" meanOverlapTravelTime="0.88" meanSpeed="6.87" meanHaltsPerVehicle="0.00" meanTimeLoss="0.18" vehicleSum="3" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="203.00" id="w_g_e_e_g_e" meanTravelTime="0.24" meanOverlapTravelTime="0.88" meanSpeed="8.31" meanHaltsPerVehicle="0.00" meanTimeLoss="0.20" vehicleSum="3" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+   <interval begin="0.00" end="203.00" id="w_g_e_n_g_n" meanTravelTime="13.13" meanOverlapTravelTime="14.18" meanSpeed="2.96" meanHaltsPerVehicle="0.29" meanTimeLoss="13.32" vehicleSum="7" meanSpeedWithin="-1.00" meanHaltsPerVehicleWithin="-1.00" meanDurationWithin="-1.00" vehicleSumWithin="0" meanIntervalSpeedWithin="-1.00" meanIntervalHaltsPerVehicleWithin="-1.00" meanIntervalDurationWithin="-1.00" meanTimeLossWithin="-1.00"/>
+</e3Detector>

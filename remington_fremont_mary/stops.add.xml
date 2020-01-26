@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Dec 23 11:55:54 2019 by Eclipse SUMO netconvert Version v1_3_1+0817-d484d16121
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="/home/charu/Projects/sumo/data/typemap/osmNetconvert.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-6831041141" name="West Remington Drive &amp; Mango Avenue" lane="-52238224#0_0" startPos="260.46" endPos="275.46" friendlyPos="true" lines="53"/>
+    <busStop id="-6831041142" name="West Remington Drive &amp; South Mary Avenue" lane="-52238224#1_0" startPos="0.00" endPos="12.04" friendlyPos="true" lines="53"/>
+    <busStop id="-6831041144" name="South Mary Avenue &amp; Ticonderoga Drive" lane="-340316586#3_0" startPos="28.05" endPos="43.05" friendlyPos="true" lines="53"/>
+    <busStop id="-6831041146" name="South Mary Avenue &amp; West Fremont Avenue" lane="-340316604#0_0" startPos="26.44" endPos="41.44" friendlyPos="true" lines="53"/>
+    <busStop id="3475326108" name="South Mary Avenue &amp; West Fremont Avenue" lane="129579899#1_0" startPos="28.38" endPos="35.88" friendlyPos="true" lines="53"/>
+    <busStop id="6821811975" name="Hollenbeck Avenue &amp; Torrington Drive" lane="52113165#0_0" startPos="41.83" endPos="56.83" friendlyPos="true" lines="54 55"/>
+    <busStop id="6821811978" name="Hollenbeck Avenue &amp; West Fremont Avenue" lane="261413859#0_0" startPos="0.00" endPos="11.41" friendlyPos="true" lines="54 55"/>
+    <busStop id="6821811979" name="West Fremont Avenue &amp; Cordilleras Avenue" lane="334904786#0_0" startPos="29.31" endPos="42.17" friendlyPos="true" lines="55"/>
+    <busStop id="6831041140" name="West Remington Drive &amp; Mango Avenue" lane="52238224#0_0" startPos="10.85" endPos="25.85" friendlyPos="true" lines="53"/>
+    <busStop id="6831041143" name="South Mary Avenue &amp; Rockefeller Drive" lane="340316586#0_0" startPos="31.23" endPos="46.23" friendlyPos="true" lines="53"/>
+    <busStop id="6831041145" name="South Mary Avenue &amp; Ticonderoga Drive" lane="340316586#4_0" startPos="31.45" endPos="46.45" friendlyPos="true" lines="53"/>
+</additional>

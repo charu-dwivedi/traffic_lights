@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/charu/Projects/sumo"
+		}
+	],
+	"settings": {
+		"python.pythonPath": "/home/charu/anaconda3/bin/python",
+		"python.autoComplete.extraPaths": ["/home/charu/Projects/sumo_tutorials"],
+	}
+}

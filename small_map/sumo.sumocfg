@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon 11 Nov 2019 06:05:35 PM PST by Eclipse SUMO GUI Version v1_3_1+0817-d484d16121
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/charu/Projects/sumo_tutorials/small_map/net_file.net.xml"/>
+        <route-files value="/home/charu/Projects/sumo_tutorials/small_map/route_file.rou.xml"/>
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="180"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="/home/charu/Projects/sumo_tutorials/small_map/osm.view.xml"/>
+    </gui_only>
+
+</configuration>

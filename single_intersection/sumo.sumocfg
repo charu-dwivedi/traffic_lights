@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<configuration>
+	<input>
+		<net-file value="/home/charu/Projects/sumo_tutorials/single_intersection/net_file.net.xml"/>
+		<route-files value="/home/charu/Projects/sumo_tutorials/single_intersection/route_file.rou.xml"/>
+	</input>
+</configuration>
