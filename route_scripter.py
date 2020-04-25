@@ -16,7 +16,7 @@ def convert_all_intersections_to_lights(net_xml_file, new_net_xml_file):
 def get_all_junctions_of_type(root, junc_type):
 	node_id_list = [
 		elem.get('id') for elem in root.findall('junction') if elem.get('type') == junc_type
-	]
+	] 
 	return node_id_list
 
 def get_all_fringe_routes(root):

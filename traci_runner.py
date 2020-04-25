@@ -43,7 +43,7 @@ def update_performance_data(performance_data):
 	performance_data['total_num_steps'] = performance_data['total_num_steps'] + 1
 	return performance_data
 
-def run_traci(traci_files, metadata={},):
+def run_traci_simple(traci_files, metadata={},):
 	sumo_command  = traci_files['sumo_command']
 	entry_exit_log_file = traci_files['entry_exit_logging']
 	traci.start(sumo_command)

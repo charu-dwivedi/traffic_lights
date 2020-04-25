@@ -45,6 +45,8 @@ def gen_traci_files(xml_file_path):
 
 if __name__ == "__main__":
 	xml_file_path = sys.argv[1]
+	SUMO_BINARY = sys.argv[2]
+	algorithm_type = sys.argv[3]
 	traci_files = gen_traci_files(xml_file_path)
 	random_trips_args = [
 		'--net-file', traci_files['net_xml'],
@@ -55,4 +57,4 @@ if __name__ == "__main__":
 	trip_options = randomTrips.get_options(random_trips_args)
 	randomTrips.main(trip_options)
 	xml_utils.gen_additional_file(traci_files['net_xml'], traci_files['additional_xml'], traci_files['entry_exit_logging'])
-	optimizer.run_optimizer(traci_files, 'flow', num_members_per_generation=5)
+	optimizer.run_optimizer(traci_files, algorithm_type, num_members_per_generation=5)
